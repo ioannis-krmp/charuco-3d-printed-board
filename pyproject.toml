@@ -1,0 +1,13 @@
+[project]
+name = "charuco-3d"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cadquery>=2.8.0",
+    "manifold3d>=3.5.2",
+    "numpy>=2.4.6",
+    "opencv-contrib-python>=5.0.0.93",
+    "trimesh[easy]>=4.12.2",
+]
